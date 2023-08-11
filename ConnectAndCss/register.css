@@ -1,0 +1,68 @@
+/* Định dạng div bao bọc biểu mẫu */
+.register-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+  }
+  
+  /* Định dạng h2 */
+  .register-form h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Định dạng label */
+  .register-form label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  /* Định dạng input */
+  .register-form input[type="text"],
+  .register-form input[type="password"],
+  .register-form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Định dạng button */
+  .register-form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  /* Thêm hover state cho button */
+  .register-form input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Tùy chỉnh cho phần tử body */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Định dạng phần tử form */
+  form {
+    margin: 0;
+  }
+  
