@@ -1,7 +1,7 @@
 # My_web_PHP
 Code web bang php thuan
 
-#onnectdb.php -> kết nối đến mysqlserver
+#connectdb.php -> kết nối đến mysqlserver
 
 
 #login.php -> Dùng để đăng nhập
